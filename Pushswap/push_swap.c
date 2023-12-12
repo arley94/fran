@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   push_swap.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: fsantill <fsantill@student.42.fr>          +#+  +:+       +#+        */
+/*   By: acoto-gu <acoto-gu@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/13 12:15:54 by fsantill          #+#    #+#             */
-/*   Updated: 2023/12/11 18:11:46 by fsantill         ###   ########.fr       */
+/*   Updated: 2023/12/12 14:05:47 by acoto-gu         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -82,7 +82,7 @@ int	main(int argc, char **argv)
 	if (args_are_only_numbers_or_spaces(argc, argv) == 0)
 	{
 		args_to_integer(argc, argv);
-		while(numbers[i])
+		while (numbers[i])
 		{
 			ft_stack_add (numbers[i], lst_a);
 			++i;
